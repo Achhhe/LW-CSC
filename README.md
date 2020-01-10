@@ -1,7 +1,7 @@
 # Image Super-Resolution by Learning Weighted Convolutional Sparse Coding
 This repository is for LW-CSC.
 
-Codes will be published soon. :smile:
+Codes will be published after acceptance. :smile:
 
 ## Contents
 1. [Introduction](#introduction)
