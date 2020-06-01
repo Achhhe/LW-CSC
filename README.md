@@ -1,7 +1,4 @@
-# Image Super-Resolution by Learning Weighted Convolutional Sparse Coding
-This repository is for LW-CSC.
-
-Codes will be published after acceptance. :smile:
+# This repository is for LW-CSC
 
 ## Contents
 1. [Introduction](#introduction)
@@ -12,15 +9,11 @@ Codes will be published after acceptance. :smile:
 6. [Acknowledgements](#acknowledgements)
 
 ## Introduction
-Over the past few decades, Sparse Coding (SC) has been successfully applied in a mass of image restoration problems. For single image super-resolution (SISR), most SC-based methods divide an image into a set of patches and process them separately, thereby ignoring the structural dependencies over the whole image. By contrast, Convolutional Sparse Coding (CSC) can make full use of the global correlation by nature since it copes with the whole image directly.  Based on this, we present a SISR model by Learning Weighted Convolutional Sparse Coding (LW-CSC). Extensive experiments demonstrate the superiority of our method to recent state-of-the-art SISR methods, in terms of both quantitative and qualitative results.
-
-<br/>
 <div  align="center">    
 <img src="Figs/lwcsc_net.jpg" width = "400"  alt="haha" align=center />   
 </div>
-<br/>
 <div  align="center">    
-Figure 1. Architecture of the proposed Learning Weighted Convolutional Sparse Coding (LW-CSC).
+Figure 1. Architecture of the proposed LW-CSC.
 </div>
 
 ## Dependencies
@@ -51,42 +44,22 @@ Run xxx.m to reproduce PSNR/SSIM/IFCs for paper.
 
 ## Results
 ### Quantitative Results
-    
+
 Table 1. Average PSNR/SSIM/IFCs for scale factor x2, x3 and x4  on common benchmarks. The best results appear  **in bold**.
 <div  align="center">    
-<img src="Figs/Quantitative_results.png" width = "800"  alt="lwista" align=center />   
+<img src="Figs/table.png" width = "800"  alt="lwista" align=center />   
 </div>
 
 ### Visual Results
 <div  align="center">    
-<img src="Figs/urban092x3_urban093x4.png" width = "700"  alt="lwista" align=center />   
+<img src="Figs/res2.png" width = "800"  alt="lwista" align=center />   
 </div>
 
 <div  align="center">    
-<img src="Figs/bsd157055x3_urban067x4.png" width = "700"  alt="lwista" align=center />   
+<img src="Figs/res1.png" width = "800"  alt="lwista" align=center />   
 </div>
 
-<div  align="center">    
-<img src="Figs/urban041x4_set5butterflyx3.png" width = "700"  alt="lwista" align=center />   
-</div>
-
-<div  align="center">    
-<img src="Figs/urban062x4_bsd119082x2.png" width = "700"  alt="lwista" align=center />   
-</div>
-
-<div  align="center">    
-<img src="Figs/urban045x4_urban019x4.png" width = "700"  alt="lwista" align=center />   
-</div>
-
-<div  align="center">    
-<img src="Figs/urban062x4_urban044x4.png" width = "700"  alt="lwista" align=center />   
-</div>
-
-</br>
-
-**For more investigation, please refer to our [main paper.]()   
-All of these comparisons mainly show the eﬀectiveness of our proposed method.**
-</br>
+**All of these comparisons mainly show the eﬀectiveness of our proposed method.**
 
 
 ## Acknowledgements
