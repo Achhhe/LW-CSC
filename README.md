@@ -13,11 +13,12 @@ This repository is for LW-CSC.
 
 ### Begin to train
 1. (optional) Download the model for our paper and place it in './pretrained'.
+
 2. Run the following script to train.
 
-```bash
-bash train.sh
-```
+   ```bash
+   bash train.sh
+   ```
 
 ## Test
 1. Run the following script to evaluate.
