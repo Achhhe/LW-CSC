@@ -1,7 +1,7 @@
 # Image Super-Resolution by Learning Weighted Convolutional Sparse Coding
 This repository is for LW-CSC.
 
-## Dependencies and Installation
+## Dependencies
 * Python 2 (Recommend to use [Anaconda](https://www.anaconda.com/distribution/#linux))
 * [Pytorch 1.0.1](https://pytorch.org/)
 * NVIDIA GPU + [CUDA](https://developer.nvidia.com/cuda-downloads)
@@ -15,10 +15,9 @@ This repository is for LW-CSC.
 1. (optional) Download the model for our paper and place it in './pretrained'.
 2. Run the following script to train.
 
-	```bash
-    bash train.sh
-   ```
-
+```bash
+bash train.sh
+```
 
 ## Test
 1. Run the following script to evaluate.
@@ -43,4 +42,3 @@ If you use any part of this code in your research, please cite our paper:
   publisher={Springer}
 }
 ```
-
